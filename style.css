@@ -1,0 +1,195 @@
+.full-header-wrapper{
+  /* background-image: url("img/home-bg.jpg"); */
+          /* top, transparent black, faked with gradient */ 
+background :linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+          ),
+          /* bottom, image */
+          url("img/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  height:1000px;
+  background-attachment: fixed;
+}
+
+.header-nav-ul{
+  color:white;
+  letter-spacing: 1px;
+}
+
+.header-contact{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-contact:hover{
+  text-decoration: none;
+}
+
+.navbar-brand{
+  color:#fff;
+  font-size: 25px;
+}
+
+.input-group{
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+
+.input-group input{
+  margin-right:-20px;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.input-group input:focus input:hover{
+  z-index: 1;
+  transition: none;
+}
+
+.input-group button{
+  border-radius: 30px;
+  z-index: 2;
+}
+
+.header-bottom-input{
+  width:30%;
+}
+
+.header-bottom{
+  margin-top: 22em;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.header-bottom p{
+  letter-spacing: 3px;
+}
+
+
+
+/* content-section-started */
+
+
+
+.what-you-get{
+  margin-top: 7em;
+  padding-bottom: 7em;
+}
+
+.content-nav{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+/* 
+content-bottom-section-started */
+
+
+
+.professional-team-for-you{
+  background-color: #F9F9F9;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+
+
+.some{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* what people say started
+ */
+
+ .what-people-say{
+   margin-bottom: 7em;
+ }
+
+ .background-what{
+   background-color: #272822;
+ }
+
+.what-text{
+  color:white;
+}
+
+
+
+/* choose any plan 
+ */
+
+.choose-any-plan{
+  background-color: #F9F9F9;
+  padding-bottom: 10em;
+}
+.plan{
+  border-right: 1px solid #5e5f59;
+  color:#757575;
+  padding-left:2em;
+  padding-right: 2em;
+}
+
+.plan-heading{
+  text-align: center;
+  margin:5em;
+  padding-top:3em;
+}
+
+.plan button{
+  border-radius: 30px;
+}
+
+.last-plan{
+  border:none;
+}
+
+
+/* say hello to your */
+
+.form-control{
+  border-bottom: 2px solid #F0F0F0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin-right: 2em;
+}
+
+.say-hello{
+  justify-content: center;
+}
+
+.say-hello h1{
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.say-hello-form{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+  display:flex;
+}
+
+.say-hello-form button{
+  width:20em;
+  border-radius: 30px;
+}
+
+
+/* footer */
+
+.footer{
+  text-align: center;
+  margin: 5em;
+}
